@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "790562046146",
+    "firebase_url": "https://cental-en-linea.firebaseio.com",
+    "project_id": "cental-en-linea",
+    "storage_bucket": "cental-en-linea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790562046146:android:8811b103f8eac1d3f07b5b",
+        "android_client_info": {
+          "package_name": "com.teed.deliclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790562046146-pm74nr37o9q8dd729hk6r90f2obv256e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXvmPUu49tLquL5DJqrZDVw4FkpN74Hvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790562046146-pm74nr37o9q8dd729hk6r90f2obv256e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

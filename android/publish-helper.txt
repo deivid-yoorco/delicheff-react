@@ -1,0 +1,4 @@
+Alias: deliclub
+Pw: V9qgwu$P!!&3ju@
+
+keytool -genkeypair -v -keystore my-upload-key.keystore -alias deliclub -keyalg RSA -keysize 2048 -validity 10000
