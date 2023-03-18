@@ -19,7 +19,7 @@
         android:resource="@color/white"/>
       <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
       <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
-      <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver">
+      <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" android:exported="false">
           <intent-filter>
               <action android:name="android.intent.action.BOOT_COMPLETED" />
               <action android:name="android.intent.action.QUICKBOOT_POWERON" />
@@ -47,6 +47,7 @@
         android:theme="@style/BootTheme"
         android:launchMode="singleTask"
         android:configChanges="orientation"
+        android:exported="false"
         android:screenOrientation="portrait">
         <intent-filter>
           <action android:name="android.intent.action.MAIN" />
